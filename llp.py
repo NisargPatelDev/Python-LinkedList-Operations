@@ -112,21 +112,3 @@ class LinkedList:
             return "Not found"
         else:
             curr.next = curr.next.next
-
-            
-            
-            
-    
-l = LinkedList()
-l.insert_from_tail(1)
-l.insert_from_head(2)
-l.insert_from_head(3)
-l.insert_from_head(4)
-l.insert_from_head(5)
-
-l.insert_before_data(3,30)
-
-l.delete_from_data(3)
-
-
-l.display()
